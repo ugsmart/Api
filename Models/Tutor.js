@@ -16,6 +16,10 @@ const schema = mongo.Schema({
         type:String,
         required:true
     },
+    Image:{
+        type:String,
+        required:true
+    },
     usermail:{
         type:String,
         required:true
