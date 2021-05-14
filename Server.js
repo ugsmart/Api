@@ -64,7 +64,7 @@ type Tutor{
     Program:String
     Description:String
     Price:String
-    Images:String
+    Image:String
     usermail:String
 }
 
