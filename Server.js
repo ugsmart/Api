@@ -64,6 +64,7 @@ type Tutor{
     Program:String
     Description:String
     Price:String
+    Images:String
     usermail:String
 }
 
@@ -82,6 +83,7 @@ type Mutation{
       Program:String!
       Description:String!
       Price:String!
+      Image:String!
       usermail:String!): Tutor
 
     Add_User(
